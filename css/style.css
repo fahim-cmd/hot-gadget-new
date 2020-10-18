@@ -1,0 +1,80 @@
+
+.container{
+    height: auto;
+    width: 100%;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 48px;
+    height: 5px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(73, 73, 70, 0.219);
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);        
+}
+.carousel-indicators{
+    position: absolute;
+    bottom: -110px;
+}
+.bg-img{
+    background-image:url("bg-1.png");    
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 700px;    
+}
+
+.btn-style{
+    background-image: linear-gradient(45deg, rgb(0, 0, 0),white);
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.p-color{
+    color: gray;
+    font-size: 15px;
+    padding-right: 30px;
+}
+.card{
+    
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 15px 15px 20px gray;
+}
+.card p{
+    color: gray;
+}
+.last-section{
+    text-align: center;
+}
+#special{
+    background-image: linear-gradient(45deg, gold, orange);
+    border-radius: 5px;
+    width: 90px;
+    height: 8px;
+    position: relative;
+    left: 510px;
+}
+.shoe-position{
+    position: relative;
+    top: 150px;
+}
+.bag{
+    position: relative;;
+    top: 80px;
+    right: 70px;
+}
+.beauty{
+    position: relative;
+    top:135px ;
+    right: 70px;
+}
+.shoe{
+    position: relative;
+    top:100px ;
+    right: 70px;
+}
